@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-color: #230042;
+}
+
+.container {
+    max-width: 420px;
+    margin: 16vh auto;
+    padding: 1.2em;
+    background-color: #013d7a;
+}
+
+.functionalites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2.5rem 0.5rem 1rem;
+}
+
+.functionalites button {
+    padding: 1rem;
+    border-radius: 15%;
+    border: none;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.display {
+    margin-top: 15px;
+}
+
+.display input {
+    padding: 1.3rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.equal {
+    grid-column: 3/-1;
+}
+
+.equal > button {
+    width: 100%;
+    background-color: #005e08;
+    border-radius: 8% !important;
+}
+
+.clear,
+.delete {
+    background-color: #5f0001;
+    box-shadow: none;
+}
+
+.keys1,
+.keys2,
+.keys3,
+.keys4,
+.keys5,
+.keys6,
+.keys7,
+.keys8,
+.keys9 {
+    background-color: #012847;
+}
+
+.keys00,
+.keys0 {
+    background-color: #268077;
+}
+
+.decimal,
+.division,
+.multi,
+.subtract,
+.addition {
+    background-color: #edae4f;
+}
